@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tài Xỉu Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TÀI XỈU</h1>
+        <p id="balance">Số dư: 1000000 VND</p>
+        <p id="bet-amount">Cược: 1000 VND</p>
+        
+        <div id="betting-section">
+            <p>Chọn đặt cược:</p>
+            <button id="tai-btn">Tài</button>
+            <button id="xiu-btn">Xỉu</button>
+            <p id="choice"></p>
+            <p id="timer">Đếm ngược đặt cược: 55 giây</p>
+            <p id="lock-message"></p>
+        </div>
+        
+        <div id="revealing-section" style="display: none;">
+            <p id="reveal-timer">Đang mở bát... (10 giây)</p>
+        </div>
+        
+        <div id="result-section" style="display: none;">
+            <p id="dice-result"></p>
+            <p id="result-text"></p>
+            <button id="play-again">Chơi lại</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
